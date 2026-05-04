@@ -50,7 +50,7 @@ public class LoginServlet extends HttpServlet {
         } catch (Exception e) {
             e.printStackTrace();
 
-            // 🔥 IMPORTANT: prevent blank page
+            // prevent blank page
             response.setContentType("text/html");
             response.getWriter().println("Error: " + e.getMessage());
         }

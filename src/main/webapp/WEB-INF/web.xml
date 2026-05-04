@@ -7,16 +7,4 @@
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
-
-    <!-- Define Servlet -->
-    <servlet>
-        <servlet-name>SampleServlet</servlet-name>
-        <servlet-class>sampleapp.SampleServlet</servlet-class>
-    </servlet>
-
-    <!-- Map URL to Servlet -->
-    <servlet-mapping>
-        <servlet-name>SampleServlet</servlet-name>
-        <url-pattern>/sample</url-pattern>
-    </servlet-mapping>
 </web-app>
